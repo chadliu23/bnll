@@ -49,8 +49,11 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
+.bg-light-blue {
+  background-color: #8CFEFD;
+}
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #F4F2E7;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -353,7 +356,7 @@ section h3.section-subheading {
 #honor .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #8CFEFD;
   text-align: center;
   padding: 20px;
 }
@@ -563,10 +566,6 @@ aside.clients img {
 section#contact {
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #4245f4;
-}
-section#contact .section-heading {
-  color: white;
 }
 @media (min-width: 992px) {
   section#contact .section-heading {
@@ -594,36 +593,30 @@ section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #F4F2E7;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #F4F2E7;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #F4F2E7;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #F4F2E7;
 }
 section#contact .text-danger {
   color: #e74c3c;
-}
-section#contact h3 {
-  color: white;
-}
-section#contact h4 {
-  color: white;
 }
 @media (min-width: 992px) {
   section#contact .contact {
