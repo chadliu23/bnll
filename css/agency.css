@@ -248,22 +248,62 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
+  font-size: 23px;
+  line-height: 23px;
+  margin-bottom: 20px;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 20px;
 }
 header .page-scroll {
   margin-top: 50px;
 }
-@media (min-width: 768px) {
+@media (min-width: 530px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 1200px) {
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
