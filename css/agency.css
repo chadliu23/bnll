@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: black;
 }
 .text-primary {
   color: #4245f4;
@@ -366,8 +366,7 @@ section h3.section-subheading {
 }
 #honor .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
 }
 #honor * {
