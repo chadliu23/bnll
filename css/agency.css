@@ -737,6 +737,10 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1052;
 }
+.portfolio-modal .modal-body {
+  white-space: pre-wrap;
+  text-align: left;
+}
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
